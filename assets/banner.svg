@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
+  <title id="title">Grancypher</title>
+  <desc id="description">碧蓝幻想桌面浏览器。深蓝天空与飞空艇线条主题。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0d233d"/>
+      <stop offset=".55" stop-color="#174a71"/>
+      <stop offset="1" stop-color="#2b829a"/>
+    </linearGradient>
+    <linearGradient id="sail" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#edfaff"/>
+      <stop offset="1" stop-color="#79d5ee"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#99e5ff" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#99e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="340" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#sky)"/>
+    <ellipse cx="940" cy="115" rx="310" ry="220" fill="url(#glow)"/>
+    <path d="M-80 286Q170 175 430 294T1280 244V380H-80Z" fill="#b9e9f5" opacity=".045"/>
+    <path d="M-40 328Q220 258 540 322T1240 276" fill="none" stroke="#9ce6f4" stroke-opacity=".2"/>
+    <g fill="#c5efff" opacity=".65">
+      <circle cx="90" cy="45" r="1.5"/><circle cx="335" cy="52" r="1"/>
+      <circle cx="730" cy="57" r="1.8"/><circle cx="1080" cy="49" r="1.2"/>
+      <circle cx="1135" cy="162" r="1.5"/><circle cx="664" cy="275" r="1"/>
+      <circle cx="465" cy="43" r="1.5"/>
+    </g>
+    <g transform="translate(830 68)" stroke="#b5eaff" stroke-linejoin="round">
+      <path d="M90 30V143M25 104H198" fill="none" stroke-width="3" opacity=".7"/>
+      <path d="M94 24L95 101L152 101Z" fill="url(#sail)" stroke-width="2" opacity=".95"/>
+      <path d="M84 43L83 101H37Z" fill="url(#sail)" stroke-width="2" opacity=".7"/>
+      <path d="M30 126Q100 157 201 119L169 164Q115 195 57 167Z" fill="#26627e" stroke-width="2.5"/>
+      <path d="M55 140Q109 162 177 139M62 161Q116 179 162 157" fill="none" stroke-width="1.5" opacity=".6"/>
+      <path d="M-23 176Q-2 168 27 176M184 205Q217 194 252 205" fill="none" stroke-width="2" opacity=".4"/>
+      <circle cx="121" cy="145" r="2" fill="#eafcff" stroke="none"/>
+      <circle cx="140" cy="143" r="2" fill="#eafcff" stroke="none"/>
+    </g>
+    <rect x="72" y="72" width="44" height="4" rx="2" fill="#97e2ef"/>
+    <text x="70" y="154" fill="#f4fcff" font-size="64" font-weight="700" letter-spacing="1" font-family="Segoe UI,Arial,sans-serif">Grancypher</text>
+    <text x="74" y="204" fill="#d4edf6" font-size="24" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif">碧蓝幻想 · 桌面浏览器</text>
+    <text x="75" y="255" fill="#97c7dc" font-size="14" letter-spacing="3" font-family="Segoe UI,Arial,sans-serif">YOUR NEXT VOYAGE, ONE CLICK AWAY</text>
+  </g>
+</svg>
