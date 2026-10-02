@@ -52,6 +52,7 @@ nav:
       - 自动周回跳转: scripts/auto-loop.md
       - 救援筛选: scripts/rescue-filter.md
       - 救援码粘贴: scripts/rescue-paste.md
+      - 关闭技能窗口动画: scripts/skill-window.md
   - 常见问题: faq.md
   - 更新日志: changelog.md
 
