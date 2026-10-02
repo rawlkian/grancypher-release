@@ -1,6 +1,6 @@
 ## 引导界面
 第一次打开程序会启动引导界面，右上角可以进行语言的切换。
-<img src="/img/guide.png">
+<img src="img/guide.png">
 
 ### 01 Cookies 与账号资料
 

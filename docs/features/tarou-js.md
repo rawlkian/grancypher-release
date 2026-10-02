@@ -2,7 +2,7 @@ Grancypher 添加了对太郎插件及用户脚本（油猴脚本）的支持。
 
 ## 太郎
 
-<img src="/img/tarou.png">
+<img src="../img/tarou.png">
 
 首先感谢太郎作者的更新与付出，<a href="https://waaatanuki.github.io/tarou-docs/begin/about">下载地址</a>。
 

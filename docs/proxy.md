@@ -1,4 +1,4 @@
-<img src="/img/proxy.png">
+<img src="img/proxy.png">
 
 Grancypher 支持多种代理方式，目前可以使用的代理方式如下：
 

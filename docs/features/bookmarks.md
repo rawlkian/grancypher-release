@@ -4,7 +4,7 @@ Grancypher 支持丰富的书签模式。
 
 书签栏上第一个按钮为书签管理按钮，点击会显示所有的书签与管理书签选项，点击管理书签打开对话框。
 
-<img src="/img/bookmark.png">
+<img src="../img/bookmark.png">
 
 在这里可以进行书签和文件夹的新建与管理，左侧书签列表中明细项目可以拖动排序或调整文件夹层级。
 
@@ -22,7 +22,7 @@ Grancypher 支持丰富的书签模式。
 
 ### 聚合模式
 
-<img src="/img/bookmark-1.png">
+<img src="../img/bookmark-1.png">
 
 该模式下书签栏与侧边栏合为一体。
 
@@ -32,7 +32,7 @@ Grancypher 支持丰富的书签模式。
 
 ### 悬浮模式
 
-<img src="/img/bookmark-2.png">
+<img src="../img/bookmark-2.png">
 
 书签栏作为单独的一个面板展现。
 
@@ -46,9 +46,9 @@ Grancypher 支持丰富的书签模式。
 
 ### 置于顶部/底部
 
-<img src="/img/bookmark-3.png">
+<img src="../img/bookmark-3.png">
 
-<img src="/img/bookmark-4.png">
+<img src="../img/bookmark-4.png">
 
 与 Chrome / Edge 一样，书签栏出现在主窗口的顶部或底部。
 

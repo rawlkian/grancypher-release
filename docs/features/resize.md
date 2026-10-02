@@ -1,4 +1,4 @@
-<img src="/img/resize.png">
+<img src="../img/resize.png">
 
 Grancypher 支持根据 GBF 游戏内容大小进行自动游戏画面裁切（主要针对左侧 Mobage 栏）。
 
