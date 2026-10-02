@@ -1,5 +1,5 @@
 <div class="sky-hero">
-<img src="img/logo.png" width="600">
+![Logo](img/logo.png)
 
 
 现代化《碧蓝幻想》专用浏览器
