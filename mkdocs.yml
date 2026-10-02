@@ -35,25 +35,22 @@ nav:
   - Grancypher: index.md
 
   - 快速开始:
-      - 安装: install.md
+      - 安装与环境配置: install.md
       - 第一次使用: getting-started.md
       - 代理设置: proxy.md
 
   - 功能:
-      - 书签: features/bookmarks.md
+      - 书签管理: features/bookmarks.md
       - 分屏与置顶: features/split-pin.md
-      - 自适应画面: features/resize.md
+      - 自适应画面裁剪: features/resize.md
       - 太郎与用户脚本: features/tarou-js.md
       - 快捷键与速达键: features/shortcuts.md
-      - 多账号与设置: features/settings.md
+      - 多用户配置: features/multi-user.md
+      - 本地缓存: features/local-cache.md
+      - 设置: features/settings.md
 
   - 常见问题: faq.md
   - 更新日志: changelog.md
 
 extra_css:
   - stylesheets/sky-journal.css
-  - stylesheets/sky-journal-extension.css
-
-markdown_extensions:
-  - attr_list
-  - md_in_html
