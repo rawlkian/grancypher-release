@@ -1,0 +1,95 @@
+
+/* =====================================================
+   Sky Journal Extension
+   MkDocs Material Hero + Cards
+   ===================================================== */
+
+/* Hero */
+.sky-hero {
+    text-align: center;
+    padding: 3.5rem 1rem 3rem;
+    margin-bottom: 2rem;
+}
+
+.sky-hero h1 {
+    margin-bottom: .5rem !important;
+}
+
+.sky-hero p {
+    color: #6e88a2;
+    font-size: 1.15rem;
+}
+
+
+/* Hero buttons */
+.sky-button {
+    display: inline-block;
+    margin: 1rem .35rem;
+    padding: .65rem 1.5rem;
+    border-radius: 999px;
+    color: #ffffff !important;
+    background: linear-gradient(
+        110deg,
+        #79b8f4,
+        #3978b7
+    );
+    box-shadow:
+        0 8px 20px rgba(61,116,166,.15);
+    transition: .25s ease;
+}
+
+.sky-button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(
+        110deg,
+        #3978b7,
+        #d1ad66
+    );
+}
+
+
+/* Feature cards */
+.sky-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.sky-card {
+    padding: 1.4rem;
+    background: rgba(255,255,255,.88);
+    border: 1px solid rgba(112,173,230,.26);
+    box-shadow:
+        0 12px 30px rgba(61,116,166,.08);
+    transition: .25s ease;
+}
+
+.sky-card:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 16px 34px rgba(61,116,166,.12);
+}
+
+.sky-card h3 {
+    margin-top: 0 !important;
+    color: #294f76;
+}
+
+.sky-card p {
+    color: #6e88a2;
+}
+
+
+/* Version card */
+.sky-version {
+    padding: 1rem 1.2rem;
+    margin: 1rem 0;
+    background:
+        linear-gradient(
+            110deg,
+            rgba(121,184,244,.12),
+            rgba(209,173,102,.12)
+        );
+    border-left: 4px solid #d1ad66;
+}
