@@ -1,7 +1,7 @@
 <div class="sky-hero">
 
-![Logo](img/logo.png)
-
+![Logo](img/Logo.png)
+<br>
 
 现代化《碧蓝幻想》专用浏览器
 
