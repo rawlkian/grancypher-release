@@ -5,7 +5,7 @@
 <div class="sky-hero">
 现代化《碧蓝幻想》专用浏览器
 <p>与你一起，直达空之彼端。</p>
-<a class="sky-button" href="https://fluffygrimoire.site/grancypher">获取应用</a>
+<a class="sky-button" href="https://fluffygrimoire.site/">获取应用</a>
 <a class="sky-button" href="getting-started/">开始上手</a>
 </div>
 
