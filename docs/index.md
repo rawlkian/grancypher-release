@@ -47,3 +47,6 @@ Grancypher 为非官方应用，与 Cygames 无隶属关系。用户脚本和扩
 - [常见问题](faq.md)
 - [提交问题](https://github.com/rawlkian/grancypher-release/issues/new)
 - [更新日志](changelog.md)
+
+## 声明
+本站点内所有用户脚本仅作学习与分享用途，使用风险与后果请自行承担！
