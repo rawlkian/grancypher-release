@@ -49,6 +49,7 @@ nav:
       - 本地缓存: features/local-cache.md
       - 设置: features/settings.md
   - 用户脚本:
+      - 功能声明: scripts/feature-declaration.md
       - 自动周回跳转: scripts/auto-loop.md
       - 救援筛选: scripts/rescue-filter.md
       - 救援码粘贴: scripts/rescue-paste.md
