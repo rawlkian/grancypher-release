@@ -44,6 +44,7 @@ nav:
       - 分屏与置顶: features/split-pin.md
       - 自适应画面裁剪: features/resize.md
       - 太郎与用户脚本: features/tarou-js.md
+      - Chrome 扩展插件: features/extensions.md
       - 快捷键与速达键: features/shortcuts.md
       - 多用户配置: features/multi-user.md
       - 本地缓存: features/local-cache.md
