@@ -32,6 +32,11 @@ Grancypher 是面向《碧蓝幻想》网页版的 Windows 桌面浏览器，使
 | 分别保存不同账户的登录与设置 | [多用户配置](features/multi-user.md) |
 | 减少重复下载，检查与清理资源缓存 | [本地缓存](features/local-cache.md) |
 | 调整主题、透明度、备份和诊断 | [设置](features/settings.md) |
+| 调整侧栏区域、图标显示与顺序 | [侧栏与图标管理](features/sidebar.md) |
+| 加载 Chrome 插件、设置网站权限 | [Chrome 插件支持](features/chrome-extensions.md) |
+| 切换浏览器身份、排查图形后端 | [实验性设置](features/experimental.md) |
+| 检查和安装新版、跳过指定版本 | [程序更新](updates.md) |
+| 检查运行组件和网络、生成报告 | [运行环境诊断](diagnostics.md) |
 
 ## 先了解三个概念
 
@@ -39,7 +44,7 @@ Grancypher 是面向《碧蓝幻想》网页版的 Windows 桌面浏览器，使
 - **分屏**是同一配置里的两个浏览器视图，共用登录资料；需要独立登录时使用多用户配置。
 - **共享缓存**保存可复用的游戏资源。不同配置可以共用缓存目录，但不要共用 Cookies 目录。
 
-Grancypher 为非官方应用，与 Cygames 无隶属关系。用户脚本和扩展的兼容性取决于具体版本，程序不提供完整 Tampermonkey 环境，也不自动更新。
+Grancypher 为非官方应用，与 Cygames 无隶属关系。用户脚本和扩展的兼容性取决于具体版本，内置用户脚本加载器不提供完整 Tampermonkey 环境；现在支持程序内检查、下载并确认安装更新，也可通过实验性功能加载 Chrome 插件。
 
 ## 下载与反馈
 

@@ -29,7 +29,8 @@
 | --- | --- |
 | `Grancypher-v版本号-Setup-win-x64.exe` | 安装版，按向导安装到当前用户 |
 | `Grancypher-v版本号-Portable-win-x64.zip` | 便携版，解压后运行 |
-| `SHA256SUMS-v版本号.txt` | 下载文件的 SHA-256 校验清单 |
+
+当前新版仅提供安装包和便携包，不再另外上传 SHA-256 校验文件。
 
 ### 安装版
 
@@ -47,10 +48,10 @@
 
 ### 可选：核对下载文件
 
-在 PowerShell 中计算下载文件的 SHA-256，并与同版本校验清单中的对应条目比较：
+在 PowerShell 中可计算下载文件的 SHA-256；若下载页提供校验值，将结果与对应文件的值比较。较早版本附带的校验清单仍可用于核对对应旧版文件：
 
 ```powershell
-Get-FileHash -LiteralPath "D:\Downloads\Grancypher-v0.3.4-Portable-win-x64.zip" -Algorithm SHA256
+Get-FileHash -LiteralPath "D:\Downloads\Grancypher-v0.4.6-Portable-win-x64.zip" -Algorithm SHA256
 ```
 
 文件名和路径替换为自己的下载位置。
@@ -63,8 +64,12 @@ Get-FileHash -LiteralPath "D:\Downloads\Grancypher-v0.3.4-Portable-win-x64.zip" 
 3. 安装新版，或把便携版完整解压到新的程序目录。
 4. 启动后确认配置目录、书签和登录状态。
 
-安装版与便携版可使用同一个已配置的数据目录。卸载程序不会删除已有登录资料和设置。程序目前没有自动更新功能。
+安装版与便携版可使用同一个已配置的数据目录。卸载程序不会删除已有登录资料和设置。0.3.7 起支持程序内更新，可在“更多 → 关于”检查、下载并确认安装；完整步骤见[程序更新](updates.md)。
 
 从使用旧 `GranblueBrowser` 默认数据目录的版本升级时，新版不自动识别该旧目录；请通过选择已有配置目录或分别还原设置、书签处理。备份文件不包含 Cookies，详见[多用户配置](features/multi-user.md)。
 
 安装完成后继续阅读[第一次使用](getting-started.md)。打不开程序时参见[常见问题](faq.md)。
+
+## 运行环境自检
+
+0.4.1 起，发行目录增加 `Check-Grancypher.cmd`。打不开程序或不确定组件是否齐全时，可双击生成运行依赖与网络报告；操作方法见[运行环境诊断](diagnostics.md)。

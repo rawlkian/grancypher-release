@@ -38,13 +38,21 @@ nav:
       - 安装与环境配置: install.md
       - 第一次使用: getting-started.md
       - 代理设置: proxy.md
+      - 程序更新: updates.md
+      - 运行环境诊断: diagnostics.md
 
   - 功能:
       - 书签管理: features/bookmarks.md
+      - 侧栏与图标管理: features/sidebar.md
       - 分屏与置顶: features/split-pin.md
       - 自适应画面裁剪: features/resize.md
       - 太郎与用户脚本: features/tarou-js.md
+<<<<<<< HEAD
       - Chrome 扩展插件: features/extensions.md
+=======
+      - Chrome 插件支持: features/chrome-extensions.md
+      - 实验性设置: features/experimental.md
+>>>>>>> 77ca4d0 (更新 Wiki)
       - 快捷键与速达键: features/shortcuts.md
       - 多用户配置: features/multi-user.md
       - 本地缓存: features/local-cache.md
@@ -55,7 +63,9 @@ nav:
       - 救援筛选: scripts/rescue-filter.md
       - 救援码粘贴: scripts/rescue-paste.md
       - 关闭技能窗口动画: scripts/skill-window.md
-  - 常见问题: faq.md
+  - 疑难解决: 
+      - 常见问题: faq.md
+      - 其他疑难: other-issues.md
   - 更新日志: changelog.md
 
 extra_css:
