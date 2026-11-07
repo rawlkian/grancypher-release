@@ -1,13 +1,14 @@
-此处的问题均收集自用户实际运行中遇到的情况，可能因人而异，仅供参考。
+# 问题反馈
 
-## OpenGL 后台渲染
+提交入口：[GitHub Issues](https://github.com/rawlkian/grancypher-release/issues/new)。
 
-问题原帖：[@cy月皇 #210层回复](https://bbs.nga.cn/read.php?pid=883720561&opt=128)
+请提供：
 
-Q：动画和释放技能会卡顿和迟缓。Chrome 浏览器通过在 chrome://flags 更改了 Choose ANGLE graphics backend这个选项为OpenGL，动画才顺畅。 Grancypher 如何解决此问题？
+1. 版本号、安装版或便携版，以及 Windows 版本。
+2. 可重复执行的操作步骤、预期结果与实际结果。
+3. 是否启用代理、扩展、脚本、双视图或特殊图形后端。
+4. 必要的截图、日志及环境报告。
 
-A：#224层回复 
+请在提交前检查路径、账户信息及截图内容，不要上传 Cookies、访问令牌、代理密码或完整用户资料目录。
 
-在注册表HKEY_CURRENT_USER\Software\Policies\Microsoft\Edge\WebView2\AdditionalBrowserArguments找到Grancypher.exe项，值修改成 = “--enable-gpu-rasterization --ignore-gpu-blocklist --use-angle=gl”(不要复制双引号)。
-
---use-angle=gl 启动参数 Grancypher 已集成到实验性功能，可不加。前两个启动参数为开启 GPU 栅格化和忽略 GPU 黑名单，对大多数用户来说没有用甚至可能导致黑屏、卡顿，故 Grancypher 不内置此两条启动参数，有需要的用户请按照上面的方法手动解决。
+若问题只在某个扩展或脚本启用时出现，请注明名称与版本。旧版 WebView2 问题与 1.0.0 CEF 问题应分别描述。

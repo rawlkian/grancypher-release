@@ -1,68 +1,88 @@
 site_name: Grancypher Wiki
-site_description: Grancypher 使用说明
+site_description: Grancypher 1.0.0 内测版使用手册
 site_url: https://rawlkian.github.io/grancypher-release/
+repo_url: https://github.com/rawlkian/grancypher-release
+repo_name: GitHub
+copyright: Grancypher · 非官方应用，与 Cygames 无隶属关系
 
 theme:
   name: material
   language: zh
-  logo: img/Logo.png
+  font: false
+  logo: img/skybound-icon.png
   favicon: img/Logo.ico
-
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
-
   palette:
     - scheme: default
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
-        name: 深色模式
-
+        name: 切换深色模式
     - scheme: slate
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
-        name: 浅色模式
+        name: 切换浅色模式
 
 plugins:
-  - search
+  - search:
+      lang:
+        - zh
+        - en
 
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
 
 nav:
-  - Grancypher: index.md
-
-  - 快速开始:
-      - 安装与环境配置: install.md
+  - 概览: index.md
+  - 开始使用:
+      - 安装与环境要求: install.md
       - 第一次使用: getting-started.md
+      - 旧版迁移与更新: updates.md
       - 代理设置: proxy.md
-      - 程序更新: updates.md
-      - 运行环境诊断: diagnostics.md
-
-  - 功能:
+  - 功能说明:
+      - 设置与外观: features/settings.md
+      - 账户配置: features/multi-user.md
       - 书签管理: features/bookmarks.md
-      - 侧栏与图标管理: features/sidebar.md
-      - 分屏与置顶: features/split-pin.md
-      - 自适应画面裁剪: features/resize.md
-      - 太郎与用户脚本: features/tarou-js.md
-      - Chrome 插件支持: features/chrome-extensions.md
-      - 实验性设置: features/experimental.md
-      - 快捷键与速达键: features/shortcuts.md
-      - 多用户配置: features/multi-user.md
+      - 侧栏与图标: features/sidebar.md
+      - 双视图与置顶: features/split-pin.md
+      - 自适应画面: features/resize.md
+      - 快捷键与速达: features/shortcuts.md
       - 本地缓存: features/local-cache.md
-      - 设置: features/settings.md
-  - 用户脚本:
-      - 功能声明: scripts/feature-declaration.md
+      - Chrome 扩展: features/chrome-extensions.md
+      - 太郎与用户脚本: features/tarou-js.md
+      - 性能与兼容: features/experimental.md
+  - 诊断与支持:
+      - 运行环境诊断: diagnostics.md
+      - 常见问题: faq.md
+      - 问题反馈: other-issues.md
+  - 脚本示例:
+      - 使用说明: scripts/feature-declaration.md
       - 自动周回跳转: scripts/auto-loop.md
       - 救援筛选: scripts/rescue-filter.md
       - 救援码粘贴: scripts/rescue-paste.md
       - 关闭技能窗口动画: scripts/skill-window.md
-  - 疑难解决: 
-      - 常见问题: faq.md
-      - 其他疑难: other-issues.md
   - 更新日志: changelog.md
 
 extra_css:
   - stylesheets/sky-journal.css
+extra:
+  generator: false
