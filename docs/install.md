@@ -15,11 +15,11 @@
 | 安装版 | `Setup-win-x64` 的 `.exe` 文件 | 默认使用当前用户的数据目录；可在初始设置中选择位置 |
 | 便携版 | `Portable-win-x64` 的 `.zip` 文件 | 默认使用程序目录下的 `Data` 文件夹 |
 
-从 [1.0.0 内测版 Release](https://github.com/rawlkian/grancypher-release/releases/tag/v1.0.0) 下载。文件旁的 `.sha256` 用于核对下载完整性。
+从 [1.0.3 正式版 Release](https://github.com/rawlkian/grancypher-release/releases/tag/v1.0.3) 下载。GitHub 附件提供 SHA-256 摘要，便携包内附运行文件校验清单。
 
 ## 安装版
 
-![Grancypher 1.0.0 安装向导](img/installer-1.0.0.png)
+![Grancypher 安装向导示例](img/installer-1.0.0.png)
 
 1. 完全退出所有 Grancypher 窗口。
 2. 运行安装程序，选择语言与安装目录。
@@ -38,4 +38,4 @@
 
 ## 从旧版升级
 
-**1.0.0 无法通过旧版程序内自动更新。** 请先阅读[升级说明](updates.md)，备份数据后下载完整包重新安装。不要仅替换主程序文件。
+**0.x 旧版无法直接通过程序内升级到 1.x 重写版。** 请先阅读[升级说明](updates.md)，备份数据后下载完整包重新安装。1.x 用户可在“关于 Grancypher”检查并安装更新。
