@@ -2,11 +2,11 @@
 
 专为《碧蓝幻想》设计的桌面浏览器。
 
-**当前正式版本：1.0.3（Windows x64）。** 基于 Qt 6 与 Chromium（CEF），提供 Skybound 界面、独立账户配置、双视图、书签、静态资源缓存及 Chrome 扩展支持。
+**当前正式版本：1.0.4（Windows x64）。** 基于 Qt 6 与 Chromium（CEF），提供 Skybound 界面、独立账户配置、双视图、书签、静态资源缓存及 Chrome 扩展支持。
 
 ## 下载与升级
 
-- [下载 1.0.3 正式版](https://github.com/rawlkian/grancypher-release/releases/tag/v1.0.3)
+- [下载 1.0.4 正式版](https://github.com/rawlkian/grancypher-release/releases/tag/v1.0.4)
 - [使用手册](https://rawlkian.github.io/grancypher-release/)
 - [问题反馈](https://github.com/rawlkian/grancypher-release/issues)
 

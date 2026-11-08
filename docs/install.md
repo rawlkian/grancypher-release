@@ -15,7 +15,7 @@
 | 安装版 | `Setup-win-x64` 的 `.exe` 文件 | 默认使用当前用户的数据目录；可在初始设置中选择位置 |
 | 便携版 | `Portable-win-x64` 的 `.zip` 文件 | 默认使用程序目录下的 `Data` 文件夹 |
 
-从 [1.0.3 正式版 Release](https://github.com/rawlkian/grancypher-release/releases/tag/v1.0.3) 下载。GitHub 附件提供 SHA-256 摘要，便携包内附运行文件校验清单。
+从 [1.0.4 正式版 Release](https://github.com/rawlkian/grancypher-release/releases/tag/v1.0.4) 下载。GitHub 附件提供 SHA-256 摘要，便携包内附运行文件校验清单。
 
 ## 安装版
 
